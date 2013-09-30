@@ -5,14 +5,14 @@ import android.app.Activity;
 import android.view.Menu;
 import android.view.Window;
 
-public class MainScreenActivity extends Activity {
+public class AuthTestActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
         requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
-        setContentView(R.layout.main_screen);
+        setContentView(R.layout.auth_test);
         
         // creates view of custom title bar -> now included in main_screen.xml
         
@@ -23,7 +23,7 @@ public class MainScreenActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main_screen, menu);]
+        getMenuInflater().inflate(R.menu.main_screen, menu);
         return true;
     }
     
